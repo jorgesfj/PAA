@@ -1,0 +1,16 @@
+ULTILIZANDO UM ARRAY DE 1000 
+    ==DESORDENADO:
+    PATIENCE SORTING: --- 0.00263500213623 seconds ---
+    QUICK SORT: --- 0.00183701515198 seconds --- 
+    MERGE SORT: --- 0.00270318984985 seconds ---
+    
+    ==ORDENADO CRESCENTE
+    PATIENCE SORTING: --- 0.0055410861969 seconds --
+    QUICK SORT: RuntimeError: maximum recursion depth exceeded
+    MERGE SORT: --- 0.0030529499054 seconds ---
+
+    ==ORDENADO DECRESCENTE
+    PATIENCE SORTING:--- 0.00109910964966 seconds ---
+    QUICK SORT:RuntimeError: maximum recursion depth exceeded
+    MERGE SORT:--- 0.00253081321716 seconds ---
+
