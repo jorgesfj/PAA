@@ -14,3 +14,36 @@ ULTILIZANDO UM ARRAY DE 1000
     QUICK SORT:RuntimeError: maximum recursion depth exceeded
     MERGE SORT:--- 0.00253081321716 seconds ---
 
+
+ULTILIZANDO UM ARRAY DE 10000
+    ==DESORDENADO
+    PATIENCE SORTING:--- 0.0422220230103 seconds ---
+    QUICK SORT:--- 0.0314521789551 seconds ---
+    MERGE SORT: --- 0.0295948982239 seconds ---
+
+    ==ORDENADO CRESCENTE
+    PATIENCE SORTING:--- 0.0594370365143 seconds ---
+    QUICK SORT:maximum recursion depth exceeded
+    MERGE SORT:--- 0.0347919464111 seconds ---
+
+    ==ORDENADO DECRESCENTE
+    PATIENCE SORTING:--- 0.0280840396881 seconds ---
+    QUICK SORT: RuntimeError: maximum recursion depth exceeded
+    MERGE SORT:--- 0.0236029624939 seconds ---
+
+ULTILIZANDO UM ARRAY DE 100000
+    ==DESORDENADO
+    PATIENCE SORTING: --- 0.424185037613 seconds ---
+    QUICK SORT: --- 0.20018196106 seconds ---
+    MERGE SORT: --- 0.387057065964 seconds ---
+
+    ==ORDENADO CRESCENTE
+    PATIENCE SORTING:--- 0.895914077759 seconds ---
+    QUICK SORT:RuntimeError: maximum recursion depth exceeded
+    MERGE SORT:--- 0.335326910019 seconds ---
+
+
+    ==ORDENADO DECRESCENTE
+    PATIENCE SORTING:--- 0.138332843781 seconds ---
+    QUICK SORT:maximum recursion depth exceeded
+    MERGE SORT:--- 0.138332843781 seconds ---
